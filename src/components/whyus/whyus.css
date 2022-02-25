@@ -1,0 +1,77 @@
+/* @font-face {
+    font-family: helvetica;
+    src: url(/home/abhi/Desktop/react_wixsite/clini-vault/src/Helvetica-Font/helvetica-light-587ebe5a59211.ttf) type("truetype");
+} */
+
+.wu-f-container{
+    background-color: #fff;
+    padding-top:30px;
+    padding-bottom: 50px;  
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    width: 100%;
+} 
+
+
+.wu-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+.wu-car{
+   padding:30px;
+   margin-top: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+@media  (min-width:786px) {
+    .wu-car{
+        margin-top:20px;
+        padding-bottom: 50px;
+        width:50%;
+    }
+}
+
+.heading{
+   font-size: 24px;
+   text-decoration: underline;
+   align-self: center;
+   display: flex;
+}
+.description{
+    font-size:18px;
+    
+   
+}
+.wu-para{
+padding: 20px;
+font-size: 16px;
+
+}
+@media screen and (min-width:768px) {
+    .heading{
+        font-size:30px;
+        margin-bottom: 50px;
+        font-weight: 800;
+    }
+    .description{
+        font-size: 26px;
+        font-weight: 400;
+        
+    }
+    .wu-heading{
+        font-size: 36px;
+    }
+    .wu-para{
+        
+        font-size: 21px;
+    }
+    
+}

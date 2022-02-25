@@ -1,0 +1,69 @@
+.v-f-container{
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+.v-text-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.v-container{
+    
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    padding: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .v-container{
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+
+    }
+    
+}
+
+
+.saas-img{
+    height: 100px;
+    width: 100px;
+   align-self: center;
+}
+.v-sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+@media screen and (min-width:768px) {
+.v-sub-container{
+    padding: 30px;
+    /* margin-left: 20px; */
+   
+}
+.v-para-2{
+    font-size: 17px;
+}
+    .v-heading{
+        font-size: 30px;
+    }
+    .v-para{
+        font-size: 20px;
+       
+  
+    }
+
+}
+

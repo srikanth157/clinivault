@@ -1,0 +1,160 @@
+.testimonial-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #fff;
+   width: 100%;
+  
+}
+
+@media screen and (min-width:768px) {
+  .testimonial-container{
+    height: 90vh;
+    width: 100%;
+  }
+  
+}
+
+
+.containers{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 40px; */
+    justify-content: space-between;
+    /* width: 80%; */
+   
+}
+@media screen and (min-width:768px) {
+  .containers{
+    flex-direction: row;
+    /* padding-left:300px ; */
+    justify-content: center;
+   /* flex: wrap; */
+   padding-top:10px ;
+
+    
+  }
+  
+}
+
+.stars-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  width: auto;
+  
+}
+
+@media screen and (min-width:768px) {
+  .stars-container{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    width: auto;
+    /* flex-shrink: 1; */
+
+  }
+  
+}
+
+  
+
+
+
+
+.parent{
+    width:60%;
+    height:60%;
+    text-align:center;
+    border-radius:10px;
+    background-color:#6285bc;
+    position:relative;
+ padding: 10px;
+ margin-top: 40px;
+  }
+
+  @media screen and (min-width:768px){
+    .parent{
+      width:50%;
+      /* height:0%; */
+      text-align:center;
+      border-radius:10px;
+      background-color:#6285bc;
+      position:relative;
+   padding: 10px;
+   margin-top: 40px;
+    }
+    
+  }
+  
+
+
+  .child{
+    width: 30px;
+    height:30px;
+    background-color:#6285bc;
+    position:absolute;
+    bottom: calc(0% - 15px);
+    left: calc(50% - 15px);
+    transform: rotateZ(45deg);
+  }
+
+  @media  (min-width:768px) {
+    .child{
+      width: 30px;
+      height:30px;
+      background-color:#6285bc;
+      position:absolute;
+      bottom: calc(0% - 15px);
+      left: calc(50% - 15px);
+      transform: rotateZ(45deg);
+    }
+    
+  }
+
+ 
+  .t-review{
+    font-size: 12px;
+    color: #fff;
+  }
+  @media screen and (min-width:768px) {
+    .t-review{
+      font-size: 16px;
+    }
+  }
+
+  .review-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .T-c-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .t-heading{
+    font-size: 23px;
+  }
+
+  .t-para{
+    font-size:14px;
+    padding: 20px;
+  }
+
+@media screen and (min-width:768px) {
+  .t-heading{
+    font-size: 36px;
+  }
+  .t-para{
+    font-size:18px;
+  }
+  
+}
+
+
+  
